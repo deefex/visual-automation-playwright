@@ -2,7 +2,7 @@ import {expect, test} from '@playwright/test';
 import navigateTo from "./src/utils/navigateTo";
 import attemptToLogin from "./src/utils/attemptToLogin";
 
-test.describe('visual automation', () => {
+test.describe('visual automation ', () => {
 
     test('using playwright visual comparisons', async ({ page }) => {
         await page.goto('/login');

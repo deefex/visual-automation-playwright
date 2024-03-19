@@ -1,14 +1,17 @@
 {
   "name": "visual-automation-playwright",
   "version": "1.0.0",
-  "description": "An example of visual testing automation with playwright",
+  "description": "An example of visual testing automation with playwright and applitools",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
-  "author": "",
+  "author": "Del Dewar",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.42.1",
     "@types/node": "^20.11.28"
+  },
+  "dependencies": {
+    "@applitools/eyes-playwright": "^1.25.3"
   }
 }
