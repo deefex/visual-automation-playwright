@@ -17,8 +17,19 @@ code simpler to write and follow.
 
 ## Installation
 
-TBD
+- `git clone https://github.com/deefex/visual-automation-playwright.git`
+- `cd visual-automation-playwright`
+- `npm install`
 
 ## Execution
 
-TBD
+Before execution, set an environment variable for the website password which can be found at https://the-internet.herokuapp.com/login
+- If you're using Windows you can do this via `set VISUAL_USERNAME=<username>` and `set VISUAL_PASSWORD=<password>`
+- If you're using Mac or Linux you can do this via `export VISUAL_USERNAME=<username>` and `export VISUAL_PASSWORD=<password>`
+
+For the playwright visual test:
+- `npx playwright test e2e/visual-playwright.spec.ts` for headless invocation
+- `npx playwright test e2e/visual-playwright.spec.ts --ui` for UI mode
+
+For the applitools visual test:
+- TBD next commit
